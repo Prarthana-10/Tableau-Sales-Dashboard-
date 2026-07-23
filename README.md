@@ -13,17 +13,18 @@ An interactive Tableau workbook analyzing sales and profitability for a retail "
 
 The workbook connects to a **Superstore sales** dataset (a well-known retail benchmark dataset) via an Excel connection, containing order-level records with fields including:
 
+## 🖥️ Dashboard: "Profit Dashboard"
+<img width="1489" height="809" alt="image" src="https://github.com/user-attachments/assets/9bd3bb41-f377-4050-82c5-f209471bece7" />
+
 | Field | Type | Description |
 |---|---|---|
 | `Order Date` / `Ship Date` | Date | Order and shipping dates |
-| `Customer ID` / `Customer Name` / `Customer Segment` | — | Customer details |
-| `Category` / `Department` / `Item` / `Item ID` | — | Product hierarchy |
-| `Region` / `State` / `City` / `Postal Code` | — | Geographic location |
-| `Order Priority` / `Ship Mode` / `Days to Ship` | — | Fulfillment details |
+| `Customer ID` / `Customer Name` / `Customer Segment` | String | Customer details |
+| `Category` / `Department` / `Item` / `Item ID` | String | Product hierarchy |
+| `Region` / `State` / `City` / `Postal Code` | Numeric | Geographic location |
+| `Order Priority` / `Ship Mode` / `Days to Ship` | Numeric | Fulfillment details |
 | `Sales` / `Profit` / `Profit Ratio` / `Discount` | Numeric | Financial performance metrics |
 | `Order Quantity` / `Unit Price` / `Shipping Cost` / `Product Base Margin` | Numeric | Order economics |
-
-## 🖥️ Dashboard: "Profit Dashboard"
 
 A single combined dashboard (sized for a 1500×860 range layout) bringing together four worksheets:
 
