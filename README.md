@@ -1,6 +1,6 @@
 # 📊 Superstore Profit Analysis — Tableau Dashboard
 
-An interactive Tableau workbook analyzing sales and profitability for a retail "Superstore" dataset — covering profit trends over time, category-level profitability, worst-performing products, and a geographic sales/profit map.
+An interactive Tableau workbook analyzing sales and profitability for a retail "Superstore" dataset, covering profit trends over time, category-level profitability, worst-performing products, and a geographic sales/profit map.
 
 ## 📂 Files
 
